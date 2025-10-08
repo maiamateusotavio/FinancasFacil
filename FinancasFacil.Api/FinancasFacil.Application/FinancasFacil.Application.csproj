@@ -7,11 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dapper" Version="2.1.66" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\FinancasFacil.Application\FinancasFacil.Application.csproj" />
     <ProjectReference Include="..\FinancasFacil.CrossCutting\FinancasFacil.CrossCutting.csproj" />
     <ProjectReference Include="..\FinancasFacil.Domain\FinancasFacil.Domain.csproj" />
   </ItemGroup>
