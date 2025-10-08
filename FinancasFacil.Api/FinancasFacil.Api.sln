@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36203.30 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancasFacil", "FinancasFacil\FinancasFacil.csproj", "{50F4CED7-E54F-444E-8D5B-7439C353880F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancasFacil.Api", "FinancasFacil\FinancasFacil.Api.csproj", "{50F4CED7-E54F-444E-8D5B-7439C353880F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancasFacil.Domain", "FinancasFacil.Domain\FinancasFacil.Domain.csproj", "{5AFDD10B-D880-4BF1-B6C6-81F6503AD4CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancasFacil.Infrastructure", "FinancasFacil.Infrastructure\FinancasFacil.Infrastructure.csproj", "{323C0C0F-94F2-42A3-8893-0F13201CD8D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancasFacil.CrossCutting", "FinancasFacil.CrossCutting\FinancasFacil.CrossCutting.csproj", "{FFDEBD1D-274E-48D5-A365-BA3037C7F892}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{50F4CED7-E54F-444E-8D5B-7439C353880F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50F4CED7-E54F-444E-8D5B-7439C353880F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50F4CED7-E54F-444E-8D5B-7439C353880F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AFDD10B-D880-4BF1-B6C6-81F6503AD4CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AFDD10B-D880-4BF1-B6C6-81F6503AD4CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AFDD10B-D880-4BF1-B6C6-81F6503AD4CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AFDD10B-D880-4BF1-B6C6-81F6503AD4CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{323C0C0F-94F2-42A3-8893-0F13201CD8D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323C0C0F-94F2-42A3-8893-0F13201CD8D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{323C0C0F-94F2-42A3-8893-0F13201CD8D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{323C0C0F-94F2-42A3-8893-0F13201CD8D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFDEBD1D-274E-48D5-A365-BA3037C7F892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFDEBD1D-274E-48D5-A365-BA3037C7F892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFDEBD1D-274E-48D5-A365-BA3037C7F892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFDEBD1D-274E-48D5-A365-BA3037C7F892}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
